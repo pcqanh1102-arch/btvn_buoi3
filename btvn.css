@@ -1,0 +1,29 @@
+.hero {
+    height: 500px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLl6xAZd8_dohOpvKOGE9JNXqAksvk3mafBXTQKY9A&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: #0a2239;
+
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.content h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #24d4c4;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
