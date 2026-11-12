@@ -1,29 +1,30 @@
 .hero {
-    height: 500px;
-
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRuLl6xAZd8_dohOpvKOGE9JNXqAksvk3mafBXTQKY9A&s=10");
+    background-image: url("https://assets.epicurious.com/photos/63e54a0664e14d52936a2937/16:9/w_2560%2Cc_limit/CoffeeSubscriptions_IG_V1_030922_6350_V1_final.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
-    background-color: #0a2239;
-
-    display: flex;
-    align-items: center;
-    padding-left: 60px;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
 }
 
-.content h1 {
-    color: white;
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background: #24d4c4;
-    color: white;
-    text-decoration: none;
+.posts article:first-of-type {
+    background-color: #fce7f3;
+    padding: 10px;
     border-radius: 8px;
+}
+
+article h3 + p {
+    background-color: #fffbeb;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav a.active {
+    font-size: 20px;
+    font-weight: bold;
 }
